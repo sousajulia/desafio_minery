@@ -1,0 +1,180 @@
+.navbar ul {
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.navbar li {
+ float: left;
+ list-style: none;
+ margin-top: 40px;
+ margin-left: 64px;
+ margin-bottom: auto;
+  }
+
+  .navbar {
+    padding-left: 80px;
+  }
+
+  .navbar li a {
+    text-align: left;
+    font-size: 16px;
+    font-family:'Open Sans Regular';
+    color: #000000DE;
+    opacity: 1;
+    text-decoration: none;
+  }
+
+  .navbar li a:hover { 
+    text-align: left;
+    font: normal;
+    font-size: 16px;
+    font-family:'Open Sans';
+    letter-spacing: 0px;
+    color: #DF1CC5;
+    opacity: 1;
+  }
+
+  .faixa1 {
+    background: transparent radial-gradient(95% 76%, #FE1390 0%,#DF1CC5 100%) 0% 0%;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 650px;
+    margin-top: 40px;
+    margin-bottom: 1771px;
+    margin-left: 0px;
+    
+  }
+  .faixa1 h1 {
+    text-align: left;
+    font-size: 64px;
+    font-family:'Open Sans Extrabold';
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+    text-transform: uppercase;
+    opacity: 1;
+    padding-left: 141px;
+    padding-top: 186px;
+    padding-bottom: 313px;
+    padding-right: 537px;
+  }
+
+  .faixa1 img {
+    position:absolute;
+    left: 690px;
+    top: 177px;
+    width: 750px;
+    height: 500px;
+
+
+  }
+
+  .faixa2 {
+    width: 1440px;
+    height: 650px;
+
+  }
+
+.faixa1 button {
+  position: absolute;
+  top: 515px;
+  left: 141px;
+  right: 1049px;
+  width: 250px;
+  height: 63px;
+  background-color: transparent;
+  border: 3px solid #FFFFFF;
+  text-align: center;
+  font-family: 'PT Sans';
+  letter-spacing: 1.8px;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+
+}
+
+  .faixa2 h1 {
+    position: absolute;
+    top: 855px;
+    left: 735px;
+    text-align: left;
+    font-family:'Open Sans Semibold';
+    font-style: italic;
+    font-size: 48px;
+    color: #000000DE;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+  .faixa2 h2 {
+    font-family: 'Open Sans Regular';
+    font-size: 16px;
+    color: #00000094;
+    position: absolute;
+    top: 1020px;
+    left: 735px;
+  }
+
+  .faixa2 ul {
+    font-family: 'Open Sans Regular';
+    font-size: 16px;
+    color: #00000094;
+    position: absolute;
+    top: 1110px;
+    left: 751px;
+  }
+
+  .faixa2 img {
+    position: absolute;
+    top: 827px;
+    left: 0px;
+    width: 749px;
+    height: 500px;
+
+  }
+
+  .faixa2 button {
+    position: absolute;
+    top: 1266px;
+    left: 735px;
+    width: 300px;
+    height: 63px;
+    border: 1px solid #DF1CC5;
+    background-color: transparent;
+    font-family: 'PT Sans Regular';
+    font-size: 18px;
+    color: #DF1CC5;
+    text-transform: uppercase;
+  }
+
+  .faixa3 {
+    position: absolute;
+    top: 1402px;
+    left: 0px;
+    width: 1440px;
+    height: 650px;
+    background-color: #F5F5F5;
+  }
+
+  .faixa3 h1 {
+    font-family: 'Open Sans Semibold';
+    font-size: 48px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #000000DE;
+    position: absolute;
+    left: 438px;
+    top: 26px;
+  }
+
+  .faixa3 h2 {
+    font-family: 'Open Sans Regular';
+    font-size: 16px;
+    color: #00000094;
+    position: absolute;
+    left: 438px;
+    top: 175px;
+    text-align: center;
+  }
