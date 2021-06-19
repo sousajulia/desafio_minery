@@ -1,0 +1,118 @@
+.navbar {
+    color: #ffff;
+    height: 102px;
+    width: 1440px;
+}
+
+.navbar li {
+    float: left;
+    padding-top: 40px;
+}
+
+.navbar li a {
+    font-family:'Open Sans Regular';
+    color: #000000DE;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 64px;
+}
+
+.faixa1 {
+    background-image: -webkit-radial-gradient(right 95%, #FE1390 0%,#DF1CC5 100%);
+    background-color: #DF1CC5;
+    width: 1440px;
+    height: 650px;
+    margin-top:-40px;
+}
+
+.faixa1 h1 {
+    padding-left: 141px;
+    padding-top: 186px;
+    text-align: left;
+    font-size: 64px;
+    font-family:'Open Sans Extrabold';
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.faixa1 button {
+    margin-left: 141px;
+    background-color: transparent;
+    border: 3px solid #ffff;
+    width: 250px;
+    height: 63px;
+    top: 401px;
+    left: 141px;
+    text-align: center;
+    font-family: 'PT Sans';
+    letter-spacing: 1.8px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.faixa1 img {
+    position: absolute;
+    left: 690px;
+    top: 177px;
+    width: 750px;
+    height: 500px;
+}
+
+.faixa2 {
+    width: 1440px;
+    height: 650px;
+    background-color: #ffff;
+}
+
+.faixa2 h1 {
+    margin-top: 103px;
+    margin-left: 735px;
+    text-align: left;
+    font-family:'Open Sans Semibold';
+    font-style: italic;
+    font-size: 48px;
+    color: #000000DE;
+    text-transform: uppercase;
+}
+
+.faixa2 h2 {
+    margin-left: 735px;
+    text-align: left;
+    margin-top: 24px;
+    font-family: 'Open Sans Regular';
+    font-size: 16px;
+    color: #00000094;
+}
+.faixa2 ul {
+    margin-top: 24px;
+    text-align: left;
+    margin-left: 751px;
+    font-family: 'Open Sans Regular';
+    font-size: 16px;
+    color: #00000094;
+}
+
+.faixa2 button {
+    width: 300px;
+    height: 63px;
+    margin-top: 24px;
+    margin-left: 735px;
+    border: 1px solid #DF1CC5;
+    background-color: transparent;
+    font-family: 'PT Sans Regular';
+    font-size: 18px;
+    text-align: center;
+    color: #DF1CC5;
+    text-transform: uppercase;
+}
+
+.faixa2 img {
+    width: 749px;
+    height: 500px;
+    position:absolute;
+    top: 827px;
+    left: 0px;
+}
