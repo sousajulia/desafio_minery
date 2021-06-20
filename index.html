@@ -1,52 +1,86 @@
 <!DOCTYPE html>
 <html>
-    <head> 
-        <link rel="stylesheet" type="text/css" href="./style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    </head>
-    <body>
-        <div class="navbar">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="navbar">
         <ul>
-            <li><a href="">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#loremipsum">Lorem Ipsum</a></li>
             <li><a href="#Phasellus">Phasellus</a></li>
             <li><a href="#Suspendisse">Suspendisse</a></li>
         </ul>
     </div>
-    <div class="faixa1">
+    <div id="home" class="faixa1">
         <h1>Donec dapibus eget<br> odio id commodo.</h1>
         <button type="button">Donec eu nunc</button>
         <img src="img/banner.png" alt="ilustração 3D mulher de negócios em cima de um celular">
     </div>
-    <div class="faixa2">
+    <div id="loremipsum" class="faixa2">
         <h1>Orci varius natoque<br> penatibus</h1>
-        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper<br> varius est. Vestibulum eu pellentesque risus, a fringilla libero. Duis congue<br> dapibus turpis et tempor.</h2>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper<br> varius est. Vestibulum eu
+            pellentesque risus, a fringilla libero. Duis congue<br> dapibus turpis et tempor.</h2>
         <ul>
             <li>Phasellus ultrices neque sed ex feugiat convallis.</li>
             <li>Sed tempus est non diam dictum consequat.</li>
             <li>Sed eget massa tempor, volutpat lacus nec, iaculis diam.</li>
             <li>Praesent condimentum justo non posuere malesuada.</li>
             <li>Sed at leo at nibh auctor facilisis vel vel purus.</li>
-            </ul>
-            <button type="button">Nullam in molestie</button>
-            <img src="img/notebook.png" alt="ilustração 3D de um notebook" width="749px" height="500px">
+        </ul>
+        <button type="button">Nullam in molestie</button>
+        <img src="img/notebook.png" alt="ilustração 3D de um notebook" width="749px" height="500px">
     </div>
-    <div class="faixa3">
-            <h1>Fusce suscipit iaculis</h1>
-            <h2>Morbi nec erat sed mi suscipit auctor. Vestibulum nisl diam, lobortis et<br> nulla vitae, ultricies placerat dui. Phasellus semper nisi non nibh finibus, at<br> laoreet eros molestie. Nullam in molestie lectus, mollis laoreet nisl.</h2>
-            <img src="img/card-1.png" alt="ilustração 3D de uma mulher saindo do celular com foguete criptomoedas e raios ao redor" width="95px" height="128px">
-            <img src="img/card-2.png" alt="ilustração 3D de uma loja com formato de maquina fotográfica antiga" width="164px" height="128px">
-            <img src="img/card-3.png" alt="ilustração 3D de um homem mostrando gráficos" width="120px" height="128px">
+    <div id="Phasellus" class="faixa3">
+        <h1>Fusce suscipit iaculis</h1>
+        <h2>Morbi nec erat sed mi suscipit auctor. Vestibulum nisl diam, lobortis et<br> nulla vitae, ultricies placerat
+            dui. Phasellus semper nisi non nibh finibus, at<br> laoreet eros molestie. Nullam in molestie lectus, mollis
+            laoreet nisl.</h2>
+        <div class="card1">
+            <img class="cardimg1" src="img/card-1.png"
+                alt="ilustração 3D de uma mulher saindo do celular com foguete criptomoedas e raios ao redor"
+                width="95px" height="128px">
+            <div class="card1hover">
+                <p>Praesent volutpat<br> molestie arcu</p>
+            </div>
+        </div>
+        <div class="card2">
+            <img class="cardimg2" src="img/card-2.png"
+                alt="ilustração 3D de uma loja com formato de maquina fotográfica antiga" width="164px" height="128px">
+                <div class="card2hover">
+                    <p>Praesent volutpat<br> molestie arcu</p>
+                </div>
+            </div>
+        <div class="card3">
+            <img class="cardimg3" src="img/card-3.png" alt="ilustração 3D de um homem mostrando gráficos" width="120px"
+                height="128px">
+                <div class="card3hover">
+                    <p>Praesent volutpat<br> molestie arcu</p>
+                </div>
+            </div>
     </div>
-            <h1>Aliquam erat volutpat</h1>
-            <h2>Duis a libero maximus, condimentum libero ac, feugiat justo. Nulla facilisi. Integer in quam ullamcorper, cursus urna at, maximus magna. Aliquam vehicula vitae neque vel gravida</h2>
-            <img src="img/arrow.png" alt="ilustração 3D de seta luminosa" width="111px" height="200px">
-            <p>digite seu e-mail</p>
-            <button type="button">Enviar</button>
-    
-    </body>
-    <footer>
-        <p>Desenvolvido por Lorem Ipsum</p>
-        <p>Todos os direitos reservados - 2021</p>
-    </footer>
+    </div>
+    <div id="Suspendisse" class="faixa4">
+        <h1>Aliquam erat volutpat</h1>
+        <h2>Duis a libero maximus, condimentum libero ac, feugiat justo. Nulla facilisi.<br> Integer in quam
+            ullamcorper, cursus urna at, maximus magna. Aliquam<br> vehicula vitae neque vel gravida</h2>
+        <img src="img/arrow.png" alt="ilustração 3D de seta luminosa" width="111px" height="200px">
+            <div class="caixaemail">
+            <form id="email">
+<input type="text" id="txtEMAIL" name="email" placeholder="digite seu e-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+<button class="botaoform" type="submit" name="enviar" value="submit">Enviar</button>
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="elemento"></div>
+    <p class="pesquerdo">Desenvolvido por Lorem Ipsum</p>
+    <p class="pdireito">Todos os direitos reservados - 2021</p>
+</footer>
+
 </html>
